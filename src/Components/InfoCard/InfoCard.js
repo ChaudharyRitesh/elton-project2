@@ -1,8 +1,8 @@
 import React from "react";
 
-const IndfoCard = () => {
+const InfoCard = () => {
   return (
-    <div className=" w-full md:grid md:grid-cols-3 md:gap-4 p-2 px-3 xsmb:grid xsmb:grid-cols-1 xsmb:gap-3">
+    <div className=" w-full md:grid md:grid-cols-3 md:gap-4 p-2 px-3 tb:px-10 xsmb:grid xsmb:grid-cols-1 xsmb:gap-3 lg:grid lg:grid-cols-3 lg:gap-4 lg:px-14 tb:grid tb:grid-cols-2 tb:gap-4 xmb:px-1.5">
       <div className="card bg-zinc-700 rounded-md ">
         <div className=" px-0 p-1">
           <div className="div flex flex-row p-3 px-4">
@@ -102,4 +102,4 @@ const IndfoCard = () => {
   );
 };
 
-export default IndfoCard;
+export default InfoCard;

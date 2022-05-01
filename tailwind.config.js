@@ -12,6 +12,7 @@ module.exports = {
       xl: "900px",
       xxl: "1024px",
       lg: "1280px",
+      xlg: "1440px",
     },
     fonts: {
       Roboto: ["Roboto", "sans-serif"],

@@ -1,17 +1,17 @@
 import React from "react";
 import SelectInput from "../select/SelectInput.js";
 import { logo } from "../../img/index.js";
-import IndfoCard from "../InfoCard/IndfoCard.js";
+import InfoCard from "../InfoCard/InfoCard.js";
 
 const Classes = () => {
   return (
     <section className="w-full  md:w-full">
-      <div className=" h-screen container mx-auto flex flex-col justify-center items-center md:flex md:flex-shrink-0">
+      <div className=" container mx-auto flex flex-col justify-center items-center md:flex md:flex-shrink-0 xmb:px-3">
         <div className="h-10 mt-7">
           <img src={logo} alt="logo" className="h-full" />
         </div>
         <div>
-          <h1 className="text-4xl mt-5 mr-12 tracking-wider text-white font-normal ">
+          <h1 className="text-4xl mt-5 mr-12 tracking-wider text-white font-semibold ">
             Classes
           </h1>
         </div>
@@ -19,7 +19,7 @@ const Classes = () => {
           <SelectInput />
         </div>
         <div className="w-full h-full">
-          <IndfoCard />
+          <InfoCard />
         </div>
       </div>
     </section>
